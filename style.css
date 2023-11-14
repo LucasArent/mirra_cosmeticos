@@ -29,6 +29,11 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
+}
+
+.slidebar a:hover {
+  text-decoration: none;
 }
 
 #cosmeticos, #catalogo, #contato, #sobre {
@@ -37,4 +42,12 @@ nav a{
 
 .cardCategory1{
   padding-left: 25%;
+}
+
+.cardCategory1 img {
+  height: 180px;
+}
+
+.cardCategory2 img {
+  height: 180px;
 }
