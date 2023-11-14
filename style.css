@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
   --yellow-color: #A89E40; /* Laranjinha */
@@ -32,4 +33,8 @@ nav a{
 
 #cosmeticos, #catalogo, #contato, #sobre {
   padding-top: 250px;
+}
+
+.cardCategory1{
+  padding-left: 25%;
 }
