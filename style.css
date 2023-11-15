@@ -28,6 +28,12 @@ nav a{
   /* background-repeat: no-repeat;
   background-size: cover; */
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+#home h1 {
+  align-self: center;
+  font-size:xx-large;
 }
 
 .slidebar {
@@ -43,8 +49,28 @@ nav a{
     z-index: 999;
 }
 
+.slidebar a {
+  top: 0;
+}
+
 .slidebar a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .slidebar a {
+    font-size: 12px;
+    margin: 0 7px;
+  }
+
+  #LOGO {
+    width: 120px;
+  }
+}
+
+.logo {
+  padding-right: 13px;
+  width: 160px;
 }
 
 #cosmeticos, #catalogo, #contato, #sobre {
@@ -63,8 +89,9 @@ nav a{
   height: 180px;
 }
 
-#biorestore1, #biorestore2, #biorestore3, #biorestore4 {
-  height: 300px;
+#carousel-img {
+  width: auto;
+  height: 230px;
 }
 
 .img-container {
@@ -85,4 +112,24 @@ nav a{
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   filter: invert(1) hue-rotate(180deg) !important;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 12px;
+    margin: 0 7px;
+  }
+}
+
+p {
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  #carousel-img  {
+    max-height: 140px;
+  }
 }
