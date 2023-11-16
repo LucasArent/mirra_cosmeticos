@@ -1,318 +1,323 @@
- @import url('https://fonts.googleapis.com/css?family=Oswald:500');
- @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
-  --yellow-color: #A89E40; /* Laranjinha */
-  --dark-gray: #1C1C1C; /* Cinza Escuro */
-  --white: #EAEAEA; /* Branco */
+ --yellow-color: #A89E40; /* Laranjinha */
+ --dark-gray: #1C1C1C; /* Cinza Escuro */
+ --white: #EAEAEA; /* Branco */
 }
 
 nav a{
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--white);
-  margin: 0 14px;
-  font-size: 15px;
-  letter-spacing: 1px;
-  position: relative;
-  display: inline-block;
+ font-family: 'Oswald', sans-serif;
+ font-weight: 500;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: var(--white);
+ margin: 0 14px;
+ font-size: 15px;
+ letter-spacing: 1px;
+ position: relative;
+ display: inline-block;
 }
 
 #home {
-  /* background-image: url("./360_F_334390455_Mkt1YqtXEiCtOCbpNTeGENHMIl3sDPmP.jpg"); */
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
+ /* background-image: url("./360_F_334390455_Mkt1YqtXEiCtOCbpNTeGENHMIl3sDPmP.jpg"); */
+ font-family: 'Oswald', sans-serif;
+ font-weight: 500;
+ text-decoration: none;
+ /* background-repeat: no-repeat;
+ background-size: cover; */
+ background-color: var(--white);
+ display: flex;
+ flex-direction: column;
 }
 #home h1 {
-  align-self: center;
-  font-size:xx-large;
+ align-self: center;
+ font-size:xx-large;
 }
 
 .slidebar {
-    position: fixed;
-    background-color: var(--dark-gray);
-    height: 115px;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-    padding-right: 4px;
+   position: fixed;
+   background-color: var(--dark-gray);
+   height: 115px;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 999;
+   padding-right: 4px;
 }
 
 .slidebar a {
-  top: 0;
+ top: 0;
 }
 
 .slidebar a:hover {
-  text-decoration: none;
+ text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  .slidebar a {
-    font-size: 12px;
-    margin: 0 7px;
-  }
+ .slidebar a {
+   font-size: 12px;
+   margin: 0 7px;
+ }
 
-  #LOGO {
-    width: 120px;
-  }
+ #LOGO {
+   width: 120px;
+ }
 }
 
 .logo {
-  padding-right: 13px;
-  width: 160px;
+ padding-right: 13px;
+ width: 160px;
 }
 
 #cosmeticos #contato, #sobre {
-  padding-top: 250px;
+ padding-top: 250px;
 }
 
 #catalogo{
-  padding-top: 75px;
-  padding-bottom: 50px;
+ padding-top: 75px;
+ padding-bottom: 50px;
 }
 
 .cardCategory1{
-  padding-left: 25%;
+ padding-left: 25%;
 }
 
 .cardCategory1 img {
-  height: 180px;
+ height: 180px;
 }
 
 .cardCategory2 img {
-  height: 180px;
+ height: 180px;
 }
 
 #carousel-img {
-  width: auto;
-  height: 230px;
+ width: auto;
+ height: 230px;
 }
 
 .img-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
 }
 .description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  filter: invert(1) hue-rotate(180deg);
+ filter: invert(1) hue-rotate(180deg);
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  filter: invert(1) hue-rotate(180deg) !important;
+ filter: invert(1) hue-rotate(180deg) !important;
 }
 
 @media (max-width: 768px) {
-  p {
-    font-size: 15px;
-    margin: 0 7px;
-  }
+ p {
+   font-size: 15px;
+   margin: 0 7px;
+ }
 }
 
 p {
-  padding-left: 32px;
-  padding-right: 32px;
-  text-align: center;
+ padding-left: 32px;
+ padding-right: 32px;
+ text-align: center;
 }
 
 
 @media (max-width: 768px) {
-  #carousel-img  {
-    max-height: 140px;
-  }
+ #carousel-img  {
+   max-height: 140px;
+ }
 }
 h2::before {
-  display: block;
+ display: block;
 }
 
 h2 {
-  text-align: center;
+ text-align: center;
 }
 
 .form {
-  width: 70%;
-  max-width: 22rem;
-  font-size: 100%;
+ width: 70%;
+ max-width: 22rem;
+ font-size: 100%;
 }
 
 .form label,
 .form input,
 .form textarea,
 .form button {
-  display: block;
-  width: 100%;
+ display: block;
+ width: 100%;
 }
 
 .form label {
-  line-height: 1;
-  margin-bottom: 0.5rem;
+ line-height: 1;
+ margin-bottom: 0.5rem;
 }
 
 .form input,
 .form textarea {
-  font: inherit;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  min-height: 1px;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  transition: border-color, box-shadow 0.2s;
+ font: inherit;
+ padding: 0.8rem;
+ margin-bottom: 1rem;
+ min-height: 1px;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ transition: border-color, box-shadow 0.2s;
 }
 
 .form textarea {
-  min-height: 2rem;
-  resize: vertical;
+ min-height: 2rem;
+ resize: vertical;
 }
 
 .form input:hover,
 .form input:focus,
 .form textarea:hover,
 .form textarea:focus {
-  outline: none;
-  border-color: gray;
-  box-shadow: 0 0 0 3px gray;
+ outline: none;
+ border-color: gray;
+ box-shadow: 0 0 0 3px gray;
 }
 
 .form button {
-  display: block;
-  padding: 1rem;
-  background: var(--dark-gray);
-  color: var(--white);
-  font: inherit;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.2s;
+ display: block;
+ padding: 1rem;
+ background: var(--dark-gray);
+ color: var(--white);
+ font: inherit;
+ text-transform: uppercase;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ transition: 0.2s;
 }
 
 .form button:hover,
 .form button:focus {
-  outline: none;
-  background: var(--yellow-color);
+ outline: none;
+ background: var(--yellow-color);
 }
 
 #contato {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  background-color: var(--dark-gray);
-  color: var(--white);
-  right: 0;
-  bottom: 0;
-  border: red solid 1px;
+ display: flex;
+ justify-content: center;
+ background-color: var(--dark-gray);
+ color: var(--white);
 }
 
 footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 30px 0 20px 0;
+
 }
 
 footer div h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+ font-size: 18px;
 }
 
 #contact-p {
-  font-size: 12px;
-  margin: 0 7px;
+ font-size: 12px;
+ margin: 0;
 }
 
 @media (max-width: 768px) {
-  footer div h3 {
-    font-size: 16px;
-    margin: 0 7px;
-  }
-  #contact-p {
-    font-size: 12px;
-    margin: 0 7px;
-  }
+ footer div h3 {
+   font-size: 16px;
+ }
+ #contact-p {
+   font-size: 12px;
+ }
+ .local {
+    padding: 0 19px;
+ }
 }
 
 #contact-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: row;
 }
 #contact-icons a {
-  width: 20px;
-  height: 20px;
-  color: #EAEAEA;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  margin: 0 16px;
-  padding-top: 0;
+ width: 20px;
+ height: 20px;
+ color: #EAEAEA;
+ border-radius: 50px;
+ text-align: center;
+ font-size: 30px;
+ box-shadow: 1px 1px 2px #888;
+ margin: 0 16px;
+ padding-top: 0;
 }
 
 #contact-icons a i {
-  position: relative;
-  top: -16px; /* Adjust this value to move the icon up or down */
-  left: -4px;
+ position: relative;
+ top: -16px; /* Adjust this value to move the icon up or down */
+ left: -4px;
 }
 
 #contact-icons1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .contact-button1 {
-  border-radius: 50px;
-  background-color: #25d366;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 5px 2px;
-  cursor: pointer;
-  border: none;
+ border-radius: 50px;
+ background-color: #25d366;
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ font-size: 16px;
+ margin: 5px 2px;
+ cursor: pointer;
+ border: none;
 }
 
 .contact-button2 {
-  border-radius: 50px;
-  background: linear-gradient(to right, #f09433 0%, #e6683c 50%, #c32aa3 100%);
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 5px 2px;
-  cursor: pointer;
-  border: none;
+ border-radius: 50px;
+ background: linear-gradient(to right, #f09433 0%, #e6683c 50%, #c32aa3 100%);
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ font-size: 16px;
+ margin: 5px 2px;
+ cursor: pointer;
+ border: none;
 }
 
 @media screen and (max-width: 600px) {
-  .contact-button2, .contact-button1 {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
+ .contact-button2, .contact-button1 {
+   font-size: 14px;
+   padding: 8px 16px;
+ }
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    z-index: 1000
+  }
+ }
