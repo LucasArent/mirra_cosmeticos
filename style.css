@@ -42,11 +42,13 @@ nav a{
     height: 115px;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 999;
+    padding-right: 4px;
 }
 
 .slidebar a {
@@ -73,8 +75,13 @@ nav a{
   width: 160px;
 }
 
-#cosmeticos, #catalogo, #contato, #sobre {
+#cosmeticos #contato, #sobre {
   padding-top: 250px;
+}
+
+#catalogo{
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 
 .cardCategory1{
@@ -116,7 +123,7 @@ nav a{
 
 @media (max-width: 768px) {
   p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0 7px;
   }
 }
@@ -131,5 +138,181 @@ p {
 @media (max-width: 768px) {
   #carousel-img  {
     max-height: 140px;
+  }
+}
+h2::before {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form {
+  width: 70%;
+  max-width: 22rem;
+  font-size: 100%;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  min-height: 1px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 2rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: gray;
+  box-shadow: 0 0 0 3px gray;
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: var(--dark-gray);
+  color: var(--white);
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: var(--yellow-color);
+}
+
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  right: 0;
+  bottom: 0;
+  border: red solid 1px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer div h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact-p {
+  font-size: 12px;
+  margin: 0 7px;
+}
+
+@media (max-width: 768px) {
+  footer div h3 {
+    font-size: 16px;
+    margin: 0 7px;
+  }
+  #contact-p {
+    font-size: 12px;
+    margin: 0 7px;
+  }
+}
+
+#contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#contact-icons a {
+  width: 20px;
+  height: 20px;
+  color: #EAEAEA;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  margin: 0 16px;
+  padding-top: 0;
+}
+
+#contact-icons a i {
+  position: relative;
+  top: -16px; /* Adjust this value to move the icon up or down */
+  left: -4px;
+}
+
+#contact-icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button1 {
+  border-radius: 50px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-button2 {
+  border-radius: 50px;
+  background: linear-gradient(to right, #f09433 0%, #e6683c 50%, #c32aa3 100%);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-button2, .contact-button1 {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
