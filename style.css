@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&display=swap');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
@@ -51,10 +52,16 @@ h1 {
    align-items: center;
    z-index: 999;
    padding-right: 4px;
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .slidebar a {
  top: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .slidebar a:hover {
@@ -77,8 +84,28 @@ h1 {
  width: 160px;
 }
 
-#cosmeticos, #contato, #sobre, #catalogo {
+#cosmeticos, #contato, #catalogo {
  padding-top: 180px;
+}
+
+#sobre h5 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#catalogo, #sobre {
+  width: 50%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  #catalogo, #sobre{
+    width: 95%;
+  }
+}
+
+#sobre {
+  padding-top: 120px;
 }
 
 .cardCategory1{
@@ -120,7 +147,7 @@ h1 {
 
 @media (max-width: 768px) {
  p {
-   font-size: 15px;
+   font-size: 14px;
    margin: 0 7px;
  }
 }
@@ -220,6 +247,7 @@ footer {
  justify-content: center;
  background-color: var(--dark-gray);
  color: var(--white);
+ box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 20px -20px;
 }
 
 footer div {
@@ -237,6 +265,7 @@ footer div h3 {
 
 #contact-p {
  font-size: 12px;
+ color: white;
  margin: 0;
 }
 
@@ -292,7 +321,9 @@ footer div h3 {
  margin: 5px 2px;
  cursor: pointer;
  border: none;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 
 .contact-button2 {
  border-radius: 50px;
@@ -304,6 +335,7 @@ footer div h3 {
  margin: 5px 2px;
  cursor: pointer;
  border: none;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -316,5 +348,32 @@ footer div h3 {
 @media screen and (max-width: 600px) {
   footer {
     z-index: 1000
+  }
+}
+
+input, textarea {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+  background-image: url(./background/Sem\ título.png)
+}
+
+#videos {
+  padding-top: 110px;
+}
+
+.video-container {
+}
+
+iframe {
+  width: 100%;
+  height: 626px;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    height: 218px;
   }
  }
