@@ -23,43 +23,51 @@
     <a href="#contato">Contato</a>
   </nav>
 
-  <div id="videos">
-    <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/3LCfgHBkr9w?showinfo=0&autoplay=1&controls=0&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div id="teaser" class="teaser-video">
+    <video width="100%" height="auto" id="videoteaser" autoplay loop muted>
+      <source src="./video/Sem título.mp4">
+    </video>
     </div>
   </div>
-  
-  <div id="sobre">
-    <h2>Sobre</h2>
-    <h5>Missão Movimentos dos Fios: </h5><p>Transformar e Realçar Sua Beleza</p>
-    <h5>Propósito: </h5>
-    <p>
-      Oferecer produtos exclusivos que transformem e realcem a beleza dos profissionais de beleza, proporcionando cuidados diários excepcionais para os cabelos. 
-      Cada produto é projetado para inspirar confiança e empoderamento.
-    </p>
-    <h5>Visão Movimentos dos Fios: </h5>
-    <p>
-      Referência em Qualidade e Satisfação do Cliente. Visualizamos um futuro onde a Movimentos dos Fios seja líder em qualidade, organização, satisfação e fidelização dos clientes. Buscamos ir além das expectativas, 
-      construindo uma comunidade de confiança e excelência em produtos de beleza.
-    </p>
-    <h5>Valores Movimentos dos Fios: </h5>
-    <p>
-      Ética, Excelência e Compromisso Sustentável. Nossos valores fundamentais incluem ética e profissionalismo, excelência no atendimento, inovação e tecnologia, compromisso com o meio ambiente, 
-      valorização e desenvolvimento de pessoas, além de êxito e transparência na gestão e comunicação. Na Movimentos dos Fios, cada produto é uma expressão de beleza, 
-      cuidado e confiança, refletindo nosso compromisso com o bem-estar e a autenticidade de cada cliente.
-    </p>
-  </div>
 
+  <section class="sobre">
+    <div id="sobre">
+      <h2>Sobre</h2>
+      <br>
+      <p>A Movimentos dos Fios tem a missão de transformar e realçar a beleza, oferecendo produtos exclusivos para profissionais de beleza, com cuidados excepcionais para os cabelos, inspirando confiança e empoderamento.</p> 
+      <p>Nossa visão é ser referência em qualidade e satisfação do cliente, buscando liderança em qualidade, organização e fidelização. Queremos superar expectativas, construindo uma comunidade de confiança e excelência em produtos de beleza.</p> 
+      <p>Nossos valores, baseados em ética, excelência e compromisso sustentável, guiam nossas ações. Valorizamos a inovação, o compromisso ambiental, o desenvolvimento de pessoas e buscamos a transparência em tudo que fazemos. Cada produto da Movimentos dos Fios é uma expressão de beleza, cuidado e confiança.</p>
+    </div>
+    <img id="aboutIMG" class="about-img"  src="./Copy of DSC07762.png">
+  </section>
+  
+      <!-- <h5>Missão Movimentos dos Fios: </h5><p>Transformar e Realçar Sua Beleza</p>
+      <h5>Propósito: </h5>
+      <p>
+        Oferecer produtos exclusivos que transformem e realcem a beleza dos profissionais de beleza, proporcionando cuidados diários excepcionais para os cabelos. 
+        Cada item é desenvolvido para inspirar confiança e empoderamento.
+      </p>
+      <h5>Visão Movimentos dos Fios: </h5>
+      <p>
+        Referência em Qualidade e Satisfação do Cliente. Visualizamos um futuro onde a Movimentos dos Fios seja líder em qualidade, organização, 
+        satisfação e fidelização dos clientes. Buscamos superar as expectativas, construindo uma comunidade de confiança e excelência em produtos de beleza.
+      </p>
+      <h5>Valores Movimentos dos Fios: </h5>
+      <p>
+        Ética, Excelência e Compromisso Sustentável. Nossos valores fundamentais incluem ética e profissionalismo, excelência no atendimento, inovação e tecnologia, 
+        compromisso com o meio ambiente, valorização e desenvolvimento de pessoas, além de êxito e transparência na gestão e comunicação. Na Movimentos dos Fios, 
+        cada produto é uma expressão de beleza, cuidado e confiança, refletindo nosso compromisso com o bem-estar e a autenticidade de cada cliente.
+      </p> -->
 
   <div id="catalogo">
-    <h2>Catálogo</h2>
-    <p>Bem-vindo ao nosso catálogo de produtos! Aqui, você encontrará uma ampla gama dos nossos produtos. 
+    <!-- <h2>Catálogo</h2> -->
+    <!-- <p>Bem-vindo ao nosso catálogo de produtos! Aqui, você encontrará uma ampla gama dos nossos produtos. 
       Cada item é cuidadosamente elaborado para atender às suas necessidades. 
-      Explore à vontade e não hesite em entrar em contato caso tenha alguma dúvida.</p>
+      Explore à vontade e não hesite em entrar em contato caso tenha alguma dúvida.</p> -->
   </div>
-
-  <br><br><br><br>
   
+  <br><br><br>
+
   <h1>Biorestore</h1>
   <br><br>
 
@@ -345,8 +353,6 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
   
   <br><br><br><br><br>
 
@@ -1009,6 +1015,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
+  <br><br><br><br><br>
 
   <h1>Hombre</h1>
   <br><br>
@@ -1030,6 +1038,424 @@
       </div>
     </div>
   </div>
+  
+  <br><br><br><br><br>
+
+  <h1>Luxury</h1>
+  <br><br>
+  <div id="luxury" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#luxury" style="display: none;" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/luxury.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Luxury</h5>
+            <br>
+            <p>Altamente nutritivo, protege todos os tipos de cabelos, confere hidratação e brilho intenso.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/omega-1.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Ômega Complex</h5>
+            <br>
+            <p>Tratamento nutritivo com óleo sublimador, ideal para dar espessura e força ao cabelo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/protein-fusion-1.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Protein Fusion</h5>
+            <br>
+            <p>Diminui a porosidade do fio, promove brilho, maciez e realinhamento da fibra.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/1.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Premium Laque</h5>
+            <br>
+            <p>Usado para realçar a textura dos cabelos e proporcionar uma forte fixação.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/2.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Volume Powder Finisher</h5>
+            <br>
+            <p>Finalizador em pó para dar textura, flexibilidade e volume com efeito mate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/3.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Ultimate Finisher</h5>
+            <br>
+            <p>Tratamento para recuperar o aspecto saudável do cabelo danificado e quimicamente processado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#luxury" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#luxury" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br><br><br><br><br>
+
+  <h1>Touch Finishers</h1>
+  <br><br>
+  <div id="hombre" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hombre" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/touch-finisher-e1661906280936.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Touch Finishers</h5>
+            <br>
+            <p>Acrescenta tempo em sua rotina e realça a sua beleza natural.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br><br>
+
+  <h1>SPA Therapy</h1>
+  <br><br>
+
+  <div id="spa-therapy" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#spa-therapy" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#spa-therapy" style="display: none;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#spa-therapy" style="display: none;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/linha-spa-produtos-2.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Profissional</h5>
+            <br>
+            <p>Rico em vitamina C, proporciona aregeneração do couro cabeludo e fortalece os fios. Também combate a queda e doa brilho intenso.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/spa-OLEO.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Therapy Vegetable Oil</h5>
+            <br>
+            <p>Possuem biocompatibilidade com a pele e com os cabelos, atuando na reposição lipídica e nutritiva.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/SPA-THERAPY2-1024x666.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Home SPA Therapy</h5>
+            <br>
+            <p>Paralisa a queda e controla diversos distúrbios capilares.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#spa-therapy" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#spa-therapy" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br><br><br><br><br>
+  
+  <h1>Nano Force</h1>
+  <br><br>
+
+  <div id="nano-force" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#nano-force" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#nano-force" style="display: none;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#nano-force" style="display: none;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#nano-force" style="display: none;" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/nano-force-1024x411.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Nano Force</h5>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/nano-professional.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Profissional</h5>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/nano-home-care-produtos-1-1.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Home Care Liquid Hair Mask</h5>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/NANO-HOME.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Home Care</h5>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#nano-force" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#nano-force" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br><br><br><br><br>
+
+  
+  <h1>Vegan Base Home Care</h1>
+  <br><br>
+
+  <div id="vegan-base" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#vegan-base" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#vegan-base" style="display: none;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#vegan-base" style="display: none;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#vegan-base" style="display: none;" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#vegan-base" style="display: none;" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/Blond Absolute.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Blond Absolute</h5>
+            <br>
+            <p>Didicado para cabelos loiros, recupera força, resistência e flexibilidade natural dos fios, deixando-os macios e brilhantes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/Curls Control.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Curls Control</h5>
+            <br>
+            <p>Indicado para cabelos cacheados ou ondulados, garantindo cachos mais definidos, macios, sedosos e flexíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/Minerals Vitamin.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Minerals Vitamin</h5>
+            <br>
+            <p>Tratamento para eliminação de caspas, seborreias, controle de eczemas e dermatites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/Fusion Protein.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Protein Fusion</h5>
+            <br>
+            <p>Possui ação preventiva e reconstrutora, ação antiquebra e pontas duplas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/Ômega Complex.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Ômega Complex</h5>
+            <br>
+            <p>Tratamento nutritivo com óleo sublimador, ideal para dar espessura e força ao cabelo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#vegan-base" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#vegan-base" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br><br><br><br><br>
+  
+  <h1>Beach Intensive Home Care</h1>
+  <br><br>
+  <div id="hombre" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hombre" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/Linha-Beach.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Beach Intensive</h5>
+            <br>
+            <p>Óleo de Framboesa e Vitamina E, que promove uma blindagem no fio impedindo a absorção da radiação solar, além de hidratar, nutrir e remineralizar com água de coco.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br><br><br><br><br>
+  
+  <h1>Vegan Oil Home Care</h1>
+  <br><br>
+  <div id="hombre" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hombre" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/vegan-oil.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Linha Vegan Oil</h5>
+            <br>
+            <p>Óleo capilar escolhido para auxiliar na reconstrução deve ser enriquecido com aminoácidos, para garantir a reposição desse nutriente na fibra. Não apenas isso, mas optar por um óleo com fórmula profissional que consiga uma penetração mais profunda nos fios. O VEGANOIL Argan e Avocado da Maison Visage é um excelente reconstrutor rico em aminoácidos e vitaminas A,B,D e E.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br><br><br><br><br>
+  
+  <h1>Le Bain</h1>
+  <br><br>
+
+  <div id="le-bain" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#le-bain" style="display: none;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#le-bain" style="display: none;" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#le-bain" style="display: none;" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img-container">
+          <img src="/img produtos2/nutrition.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Nutrition</h5>
+            <br>
+            <p>Uma tecnologia única com Ultra Concentração de ativos da natureza que transforma seu desejo de tratar seus fios em rotina diária, com zero ativos agressores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/vitamins.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Vitamins</h5>
+            <br>
+            <p>Uma tecnologia única com Ultra Concentração de ativos da natureza que transforma seu desejo de tratar seus fios em rotina diária, com zero ativos agressores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="img-container">
+          <img src="/img produtos2/repairing.png" id="carousel-img">
+          <div class="description">
+            <br><br>
+            <h5>Repairing</h5>
+            <br>
+            <p>Uma tecnologia única com Ultra Concentração de ativos da natureza que transforma seu desejo de tratar seus fios em rotina diária, com zero ativos agressores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#le-bain" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#le-bain" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
   <br><br><br>
 
 
@@ -1051,7 +1477,7 @@
         </div>
         <br>
       <form
-        action="https://formsubmit.co/763npp@gmail.com"
+        action="https://formsubmit.co/yesmirra@gmail.com"
         method="POST"
         class="form"
       >
@@ -1065,7 +1491,7 @@
         <input
           type="hidden"
           name="_next"
-          value="http://127.0.0.1:5500/valeu.html"
+          value="http://127.0.0.1:5500/thanks.html"
         />
         <button type="submit">Enviar</button>
     </form>
