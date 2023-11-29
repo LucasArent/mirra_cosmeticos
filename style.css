@@ -463,8 +463,12 @@ iframe {
 }
 
 .about-img {
-  padding-top: 7%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   width: 20%;
   height: auto;
   float: right;
+}
+
+#aboutIMG {
+  border-radius: 10%;
 }
