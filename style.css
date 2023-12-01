@@ -138,6 +138,10 @@ p {
   align-items: center;
 }
 
+.description p {
+  width: 70%;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
   filter: invert(1) hue-rotate(180deg);
 }
@@ -147,6 +151,10 @@ p {
 }
 
 @media (max-width: 768px) {
+  .description p {
+    width: 100%;
+  }
+
   p {
     font-size: 14px;
     margin: 0 7px;
